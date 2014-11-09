@@ -3,10 +3,10 @@ var customeCensoredWords = [];
 
 function censor(inStr) {
 	for(idx in censoredWords) {
-		inStr = censoredWords.replace(censoredWords[idx], "****");
+		inStr = inStr.replace(censoredWords[idx], "****");
 	}
 	for(idx in customeCensoredWords) {
-		inStr = customeCensoredWords.replace(customeCensoredWords[idx], "****");
+		inStr = inStr.replace(customeCensoredWords[idx], "****");
 	}
 	return inStr;
 }
