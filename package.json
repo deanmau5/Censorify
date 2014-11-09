@@ -1,7 +1,8 @@
 {
 	"author" : "Dean Roulston",
 	"name" : "censorify-deanmau5",
-	"version" : "0.0.1",
+	"main" : "./censorify.js",
+	"version" : "0.0.3",
 	"repository" : {
 						"type":"git",
 						"url":"https://github.com/deanmau5/Censorify"
